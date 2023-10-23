@@ -1,0 +1,2 @@
+DELETE FROM albums
+WHERE AlbumId BETWEEN 1 AND 22
