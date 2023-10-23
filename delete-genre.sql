@@ -1,2 +1,2 @@
 DELETE FROM genres
-WHERE Name = 8
+WHERE GenreId = 8
