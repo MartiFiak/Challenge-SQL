@@ -1,4 +1,3 @@
-SELECT EmployeeId, LastName, FirstName, HireDate AS 'HireFrenchDate'
+SELECT EmployeeId, LastName, FirstName, STRFTIME('%d/%m/%Y', HireDate) AS HireFrenchDate
 FROM employees
-WHERE date(HireFrenchDate )
-ORDER BY HireDate ASC
+ORDER BY HireDate ASC;
