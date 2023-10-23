@@ -1,2 +1,2 @@
-INSERT INTO genres
+INSERT INTO genres (Name)
 VALUES ('Electro')
