@@ -7,4 +7,3 @@ WHERE Milliseconds = (
     WHERE t.GenreId = genres.GenreId
     )
 GROUP BY ii.InvoiceId
-
