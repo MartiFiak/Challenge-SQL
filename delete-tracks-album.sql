@@ -1,2 +1,6 @@
 DELETE FROM tracks
-WHERE Name = 'Facelift'
+WHERE AlbumId = (
+    SELECT AlbumId
+    FROM albums
+    WHERE Title = 'Facelift'
+)
