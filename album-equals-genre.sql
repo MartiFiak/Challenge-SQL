@@ -1,7 +1,6 @@
-SELECT Name
+SELECT AlbumId, ArtistId, Title
 FROM albums
-INNER JOIN tracks ON albums.AlbumId = tracks.AlbumId
-WHERE Name =(
-    SELECT genres.Name
+WHERE Title IN (
+    SELECT Name
     FROM genres
-          )
+    )
